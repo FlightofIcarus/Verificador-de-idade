@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(107, 165, 241);
+    font: normal, 15pt Arial;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+section {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    color: #000;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+#msg {
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#imgbox {
+        text-align: center;
+}
+
+fieldset { 
+    border-radius: 15px;
+}
+
+label {
+    margin: 20px;
+}
+
+input {
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+input[type=text] {
+    padding: 5px;
+   
+}
+
+#name {
+    width: 130px;
+}
+
+#myage {
+    width: 220px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 8px;
+    color: #fff;
+    font-size: 1rem;
+    margin: 5px 0px;
+}
+
+#age {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+span {
+    display: block;
+}
+
+#logo {
+    width: 80px;
+}

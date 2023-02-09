@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/IS_favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificador de idade</title>
+</head>
+<body onload="loadTime()">
+    <header><h1>Verificador de idade personalizado com saudação temporal</h1></header>
+    <main>
+        <section>
+            <div id="msg"></div>
+            <div id="imgbox"><img id="image" src=>
+            <form><fieldset>
+                <label>Nome<input id="name" type="text" placeholder="Digite seu nome"  onchange="enableButton()"></label><br>
+
+                <label>Ano de Nascimento <input id="myage" type="text" placeholder="Digite seu ano de nascimento"  onchange="enableButton()"></label><br>
+
+                <label>Gênero:</label><label><input onclick="genreType(this.value)" onmouseout="enableButton()" name="genero" value="Masculino" type="radio">Masculino</label>
+
+                <label><input onclick="genreType(this.value)" onmouseout="enableButton()" name="genero" value="Feminino" type="radio">Feminino</label>
+
+            </fieldset></form>
+            <button id="doit" onmouseover="disableButton()" onclick="calcMyAge()">Calcular minha idade</button>
+            </div>
+            <p id="age"></p>
+        </section>
+    </main>
+    <footer>
+       <span>&#169; Ícaro Santos</span>
+        <img id="logo" src="images/Icaro Santos Frontend Dev logo.png" alt="" srcset="">
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
